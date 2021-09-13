@@ -1,0 +1,10 @@
+                    .bd-navbar {
+                        min-height: 4rem;
+                        background-color: #7541c4;
+                        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+                    }
+                    
+                    .btn-group-lg>.btn,
+                    .btn-lg {
+                        padding: 0.5rem 6.5rem;
+                    }
