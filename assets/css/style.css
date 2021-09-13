@@ -8,3 +8,17 @@
                     .btn-lg {
                         padding: 0.5rem 6.5rem;
                     }
+                    
+                    .search-entry:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                    
+                    @media only screen and (min-width: 992px) {
+                        #dashboard {
+                            flex-grow: 1;
+                        }
+                        #five-day-weather-card {
+                            width: 20%;
+                        }
+                    }

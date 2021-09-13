@@ -7,22 +7,9 @@
     <title>Weather Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
-
-<!-- <nav>
-    <h1 class="primary">Weather Dashboard</h1>
-</nav>
-
-<body>
-    <div class="input-group d-grid gap-2">
-        <div class="form-outline">
-            <h1> Search for a City: </h1>
-            <input type="search" id="form1" class="form-control" />
-        </div>
-        <br>
-        <button type="button" class="btn btn-primary btn-lg">Large button</button>
-    </div> -->
 
 
 
@@ -45,9 +32,9 @@
                 <form class="form-group" id="search-city">
                     <label for="city-name font-weight-bold" class="h4">Search for a city:</label>
                     <div class="form-inline">
-                        <input type="text" class="form-control" id="city-name">
+                        <input type="text" class="form-control" id="city-text">
                         <br>
-                        <button type="submit" type="button" class="btn btn-primary btn-lg btn-block" id="search"><i class="fas fa-search"></i>SEARCH</button>
+                        <button type="submit" type="button" class="btn btn-primary btn-lg btn-block" id="search-btn"><i class="fas fa-search"></i>SEARCH</button>
                     </div>
                     <p class="text-danger" id="error"></p>
                 </form>
@@ -56,6 +43,9 @@
                     <ul class="list-group list-group-flush" id="search-history"></ul>
                 </div>
             </div>
+
+
+            <!-- Appends current weather forecast-->
 
             <div class="col-lg-9" id="city-info" data-city="">
                 <div class="d-flex" id="start-text">
@@ -67,5 +57,7 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
+
 </body>
