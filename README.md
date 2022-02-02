@@ -19,7 +19,7 @@ This does not require installation.
 ## Usage 
 This application allows users to search for weather information. The user will be able to view daily weather and a 5-day forecast for the city that is searched. The user will also be able to click on previous search to display the same information. <br>
 Please view live Git Hub [URL](https://mandy2324.github.io/Weather-Dashboard/)<br>
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](.//Assets/demo.png)
+<img src="Assets/demo.png">
 
 ## License 
 This project is license under MIT
