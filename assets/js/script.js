@@ -33,7 +33,7 @@ function loadSearchHistory() {
         for (let index = 0; index < localStorage.length; index++) {
             const cityName = localStorage[index];
 
-            $('#search-history').append("<button class='btn btn-sm history-btn' data-name='" + cityName + "'>" + cityName + "</button>")
+            $('#search-history').append("<button class='btn btn-lg history-btn' data-name='" + cityName + "'>" + cityName + "</button>")
         }
     }
 }
